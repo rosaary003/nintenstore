@@ -73,7 +73,7 @@
         </div>
     @endif
 
-    <form action="{{ route('login') }}" method="POST">
+    <form action="/login" method="POST">
 
         @csrf
 
@@ -108,7 +108,7 @@
     <p class="text-center mt-4 mb-0">
         Belum punya akun?
 
-        <a href="{{ route('register') }}"
+        <a href="/register"
            class="register-link">
             Daftar sekarang
         </a>
